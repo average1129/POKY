@@ -61,6 +61,6 @@ FILES:${PN}-staticdev =+ "${libdir}/llvm-rust/*/*.a"
 FILES:${PN} += "${libdir}/libLLVM*.so.* ${libdir}/llvm-rust/lib/*.so.* ${libdir}/llvm-rust/bin"
 FILES:${PN}-dev += "${datadir}/llvm ${libdir}/llvm-rust/lib/*.so ${libdir}/llvm-rust/include ${libdir}/llvm-rust/share ${libdir}/llvm-rust/lib/cmake"
 
-uninative_changeinterp_class-native = ""
+uninative_changeinterp:class-native = ""
 
 BBCLASSEXTEND = "native"

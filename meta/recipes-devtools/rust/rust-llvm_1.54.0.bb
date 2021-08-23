@@ -4,4 +4,4 @@ LLVM_RELEASE = "12.0.1"
 require rust-source-${PV}.inc
 require rust-llvm.inc
 
-PR = "r1"
+PR = "r2"
